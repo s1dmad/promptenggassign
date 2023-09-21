@@ -1,0 +1,212 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply general styles for fonts and background */
+body {
+    font-family: "Source Sans 3", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("your-video-url.mp4") center/cover no-repeat;
+}
+
+.page__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for Title Card */
+.TitleCard {
+    /* width: 1000px; */
+    /* height: 600px; */
+}
+
+.TitleCard__content {
+    text-align: center;
+}
+
+.Atom.lg_session_title {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+
+.Atom.sub_title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.Atom.ls2_para {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/* Styles for Label */
+.label {
+    /* Add your styles for the label container here */
+}
+
+.label__content {
+    text-align: center;
+}
+
+.Atom.button_text {
+    font-size: 1.0rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.Atom.button {
+    font-size: 70px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fecc02;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+}
+.Atom.button i{
+    color: #000;
+}
+
+/* Styles for Arc Carousel Container */
+.ArcCarouselContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url("your-image-url.jpg") center/cover no-repeat;
+}
+
+.ArcCarouselContainer__content {
+    text-align: center;
+}
+
+.Atom.sub_title {
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+
+.Atom.md_session_title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 8px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.Atom.ls1_para {
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/* Styles for Carousel */
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for Carousel Card */
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    background: url("your-carousel-card-image-url.jpg") center/cover no-repeat;
+    /* Add other styles for the carousel card container here */
+}
+
+.carousel-card__content {
+    position: relative;
+}
+
+.Atom.card-title {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fecc02;
+    letter-spacing: 2px;
+    width: calc(100% - 40px);
+    margin: 0;
+}
+
+.Atom.divider {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+.Atom.card-paraq {
+    position: absolute;
+    top: 160px;
+    left: 17px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    width: calc(100% - 40px);
+    margin: 0;
+}
+
+.Atom.label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 66px;
+    background-color: #fecc02;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+/* Styles for Carousel Navigation */
+.carousel-nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Atom.nav-item {
+    border: #fff 1px solid;
+    background-color: rgba(0, 0, 0, 0);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 14px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
